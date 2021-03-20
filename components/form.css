@@ -1,0 +1,64 @@
+form {
+  min-height: 22vh; /*how far from title*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.habit-prompt {
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 30px;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 600;
+  color: black;
+}
+
+/*form input {
+  margin-left: 75rem;
+  width: 100px;
+  height: 70px;
+}*/
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  width: 2000px;
+  height: 70px;
+  border: none;
+  background: white;
+}
+form button {
+  color: #ff6f47;
+  background: #f7fffe;
+  transition: all 0.3s ease;
+  width: 100px;
+}
+
+/*what happend to the button when we hover on it*/
+form button:hover {
+  background: #e8a87c;
+  color: white;
+  border-bottom: 3px solid;
+  position: relative;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-height: 200px;
+}
+
+.paint-img {
+  margin-left: 750px;
+  max-width: 20%;
+  margin-top: -40px;
+  border-radius: 20px;
+}
