@@ -1,0 +1,104 @@
+.title {
+  color: #111;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  font-weight: 600px;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+:focus {
+  outline: none;
+}
+
+.btn-sign {
+  font-family: Helvetica;
+  font-weight: bold;
+  border: 2px solid #302f3a;
+  font-size: 0.7rem;
+  transition: all 0.3s ease;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 300px;
+}
+
+.btn-sign:hover {
+  background-color: #e8a87c;
+}
+
+.menu {
+  background-color: #85dc;
+  width: 300px;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%; /*it hides it*/
+  transition: 850ms;
+  z-index: 9999;
+}
+
+.menu-active {
+  top: 0px;
+  left: 0;
+  transition: 550ms;
+  background-color: #85dc;
+  width: 300px;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 9px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  /*the background of each option*/
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  width: 95%;
+  height: 100;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  /*effect to when we hover the text*/
+  background-color: teal;
+  width: 90%;
+  height: 100%;
+}
+
+.menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #85dc;
+  width: 299px;
+  height: 95px;
+  display: flex;
+  margin-left: -38px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 20px;
+}
